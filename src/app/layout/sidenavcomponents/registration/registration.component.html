@@ -1,0 +1,89 @@
+<div class="container">
+
+  <form class="well form-horizontal" action=" " method="post" id="contact_form">
+    <fieldset>
+      <!-- Text input-->
+
+      <div class="form-group">
+
+        <div class="row">
+          <div class="col-md-6">
+            <label class="col-md-6 control-label">First Name</label>
+            <div class="col-md-8 inputGroupContainer">
+              <div class="input-group">
+
+                <input name="first_name" placeholder="First Name" class="form-control" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label class="col-md-6 control-label">Last Name</label>
+            <div class="col-md-8 inputGroupContainer">
+              <div class="input-group">
+
+                <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <label class="col-md-6 control-label">Reg.Type</label>
+            <div class="col-md-8 selectContainer">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-list"></i>
+                </span>
+                <select name="department" class="form-control selectpicker">
+                  <option value="">Select</option>
+                  <option>Student</option>
+                  <option>Staff</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label class="col-md-6 control-label">Joining Date</label>
+            <div class='col-md-8'>
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                  <input type='Date' class="form-control" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <label class="col-md-6 control-label">Aadhar Number:</label>
+            <div class="col-md-8 inputGroupContainer">
+              <div class="input-group">
+
+                <input name="last_name" placeholder="Aadhar" class="form-control" type="text">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </fieldset>
+  </form>
+</div>
+<!-- /.container -->
+
+<button type="button" class="btn btn-success">Save</button>
